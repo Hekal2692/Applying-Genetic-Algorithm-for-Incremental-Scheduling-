@@ -1,0 +1,306 @@
+{
+    "application": {
+        "jobs": [
+            {
+                "id": 0,
+                "processing_times": 2,
+                "mcet": 10,
+                "wcet": 18,
+                "deadline": 250,
+                "EST": 0,
+                "LFT": 245
+            },
+            {
+                "id": 1,
+                "processing_times": 4,
+                "mcet": 10,
+                "wcet": 21,
+                "deadline": 250,
+                "EST": 10,
+                "LFT": 245
+            },
+            {
+                "id": 2,
+                "processing_times": 4,
+                "mcet": 10,
+                "wcet": 21,
+                "deadline": 300,
+                "EST": 20,
+                "LFT": 295
+            },
+            {
+                "id": 3,
+                "processing_times": 5,
+                "mcet": 10,
+                "wcet": 22,
+                "deadline": 256,
+                "EST": 30,
+                "LFT": 251
+            },
+            {
+                "id": 4,
+                "processing_times": 4,
+                "mcet": 10,
+                "wcet": 21,
+                "deadline": 256,
+                "EST": 40,
+                "LFT": 251
+            },
+            {
+                "id": 5,
+                "processing_times": 3,
+                "mcet": 10,
+                "wcet": 20,
+                "deadline": 256,
+                "EST": 50,
+                "LFT": 251
+            },
+            {
+                "id": 6,
+                "processing_times": 2,
+                "mcet": 10,
+                "wcet": 18,
+                "deadline": 256,
+                "EST": 60,
+                "LFT": 251
+            },
+            {
+                "id": 7,
+                "processing_times": 5,
+                "mcet": 10,
+                "wcet": 22,
+                "deadline": 256,
+                "EST": 70,
+                "LFT": 251
+            },
+            {
+                "id": 8,
+                "processing_times": 4,
+                "mcet": 10,
+                "wcet": 21,
+                "deadline": 256,
+                "EST": 80,
+                "LFT": 251
+            },
+            {
+                "id": 9,
+                "processing_times": 3,
+                "mcet": 10,
+                "wcet": 20,
+                "deadline": 256,
+                "EST": 90,
+                "LFT": 251
+            },
+            {
+                "id": 10,
+                "processing_times": 2,
+                "mcet": 10,
+                "wcet": 18,
+                "deadline": 256,
+                "EST": 100,
+                "LFT": 251
+            }
+        ],
+	"messages": [
+	    {
+		"id": 0,
+		"sender": 0,
+		"receiver": 1,
+		"size": 6,
+		"timetriggered": true
+	    },
+	    {
+		"id": 1,
+		"sender": 0,
+		"receiver": 2,
+		"size": 2,
+		"timetriggered": true
+	    },
+	    {
+		"id": 2,
+		"sender": 0,
+		"receiver": 3,
+		"size": 3,
+		"timetriggered": true
+	    },
+	    {
+		"id": 3,
+		"sender": 0,
+		"receiver": 4,
+		"size": 4,
+		"timetriggered": true
+	    },
+	    {
+		"id": 4,
+		"sender": 1,
+		"receiver": 5,
+		"size": 4,
+		"timetriggered": true
+	    },
+	    {
+		"id": 5,
+		"sender": 1,
+		"receiver": 9,
+		"size": 6,
+		"timetriggered": true
+	    },
+	    {
+		"id": 6,
+		"sender": 2,
+		"receiver": 6,
+		"size": 2,
+		"timetriggered": true
+	    },
+	    {
+		"id": 7,
+		"sender": 3,
+		"receiver": 7,
+		"size": 4,
+		"timetriggered": true
+	    },
+	    {
+		"id": 8,
+		"sender": 4,
+		"receiver": 8,
+		"size": 3,
+		"timetriggered": true
+	    },
+	    {
+		"id": 9,
+		"sender": 4,
+		"receiver": 7,
+		"size": 2,
+		"timetriggered": true
+	    },
+	    {
+		"id": 10,
+		"sender": 5,
+		"receiver": 9,
+		"size": 4,
+		"timetriggered": true
+	    },
+	    {
+		"id": 11,
+		"sender": 6,
+		"receiver": 10,
+		"size": 2,
+		"timetriggered": true
+	    },
+	    {
+		"id": 12,
+		"sender": 7,
+		"receiver": 10,
+		"size": 3,
+		"timetriggered": true
+	    },	
+	    {
+		"id": 13,
+		"sender": 9,
+		"receiver": 10,
+		"size": 2,
+		"timetriggered": true
+	    }
+	]
+    },
+    "platform": {
+	"nodes": [
+	    {
+		"id": 0,
+		"is_router": false
+	    },
+	    {
+		"id": 1,
+		"is_router": false
+	    },
+	    {
+		"id": 2,
+		"is_router": false
+	    },
+	    {
+		"id": 3,
+		"is_router": true
+	    },
+	    {
+		"id": 4,
+		"is_router": true
+	    },
+	    {
+		"id": 5,
+		"is_router": true
+	    },
+	    {
+		"id": 6,
+		"is_router": true
+	    },
+	    {
+		"id": 7,
+		"is_router": true
+	    },
+	    {
+		"id": 8,
+		"is_router": true
+	    },
+	    {
+		"id": 9,
+		"is_router": true
+	    }
+	],
+	"links": [
+	    {
+		"start": 0,
+		"end": 7
+	    },
+	    {
+		"start": 1,
+		"end": 7
+	    },
+	    {
+		"start": 7,
+		"end": 8
+	    },
+	    {
+		"start": 2,
+		"end": 8
+	    },
+	    {
+		"start": 3,
+		"end": 8
+	    },
+	    {
+		"start": 4,
+		"end": 8
+	    },
+	    {
+		"start": 8,
+		"end": 9
+	    },
+	    {
+		"start": 7,
+		"end": 9
+	    },
+	    {
+		"start": 5,
+		"end": 9
+	    },
+	    {
+		"start": 6,
+		"end": 9
+	    }
+	],
+	"frequencies": [500, 1000],
+	"schemes": [
+	    {
+		"id": 0,
+		"wcdt": 0,
+		"wcct": 0,
+		"wccr": 1
+	    },
+	    {
+		"id": 1,
+		"wcdt": 10,
+		"wcct": 10,
+		"wccr": 0.5
+	    }
+	]
+    }
+}
